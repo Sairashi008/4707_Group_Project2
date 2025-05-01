@@ -5,4 +5,3 @@ CREATE TABLE PAYMENTS (
   PaymentMethod VARCHAR(50) NOT NULL,
   PRIMARY KEY (PaymentID)
 );
-

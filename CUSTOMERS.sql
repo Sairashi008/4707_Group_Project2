@@ -9,6 +9,3 @@ CREATE TABLE CUSTOMERS (
   Email VARCHAR(50),
   PRIMARY KEY (CustomerID)
 );
-
-
-
