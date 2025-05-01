@@ -1,1 +1,8 @@
+CREATE TABLE PAYMENTS (
+  PaymentID VARCHAR(20) NOT NULL UNIQUE,
+  PaymentDate DATE,
+  PaymentAmt FLOAT NOT NULL,
+  PaymentMethod VARCHAR(50) NOT NULL,
+  PRIMARY KEY (PaymentID)
+);
 
