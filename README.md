@@ -22,3 +22,4 @@ Assumptions:
 - Assuming that the also uses the UNIQUE keyword
 - Assuming that all Date Fields entered are valid.
 - Assuming Email address provided for each customer is unique and is mandatory
+- Assuming PaymentAmt, Price, Quantity are non negative
