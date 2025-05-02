@@ -13,7 +13,7 @@ Assumptions:
 - Assuming Pname would consist of both first and last name so it will have a maximum length of 30 characters
 - Assuming that PContact in PUBLISHER has a maximum length of 100
 - Assuming that Title in BOOK_WITH_INVENTORY would have a maximum length of 100 characters
-- Because different countries have different number of digits for phone numbers - I am assuming that the maximum length for CPhone_Num in CUSTOMRE_PHONENUM is 20 characters
+- Because different countries have different number of digits for phone numbers - I am assuming that the maximum length for CPhone_Num in CUSTOMRE_PHONENUM is 15 characters(to include country extension)
 - Assuming all first names and last names for all tables cannot be NULL
 - Assuming PaymentMethod cannot be NULL
 - Assuming ShippingAddress cannot be NULL
@@ -21,3 +21,5 @@ Assumptions:
 - Assuming PaymentAmt cannot be NULL
 - Assuming Title of the book cannot be NULL
 - Assuming that the also uses the UNIQUE keyword
+- Assuming that all Date Fields entered are valid.
+- Assuming Email address provided for each customer is unique and is mandatory
