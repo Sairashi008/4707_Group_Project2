@@ -10,7 +10,6 @@ Assumptions:
 - Assuming that payment method is represented as a maximum of 15 characters
 - Assuming shipping address has a maximum length of 150 characters
 - Assuming that no position is longer than 50 characters
-- Assuming Pname would consist of both first and last name so it will have a maximum length of 30 characters
 - Assuming that PContact in PUBLISHER has a maximum length of 100
 - Assuming that Title in BOOK_WITH_INVENTORY would have a maximum length of 100 characters
 - Because different countries have different number of digits for phone numbers - I am assuming that the maximum length for CPhone_Num in CUSTOMRE_PHONENUM is 15 characters(to include country extension)
